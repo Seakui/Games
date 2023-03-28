@@ -1,3 +1,4 @@
+-- im a really bad scripter so yeah i apologise for my coding
 getgenv().Key = "Enter your key here!"
 
 repeat wait() until game:IsLoaded()
