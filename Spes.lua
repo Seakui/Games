@@ -1,3 +1,5 @@
+getgenv().Key = "Enter your key here!"
+
 repeat wait() until game:IsLoaded()
 
 local script_version = "4.32"
@@ -118,7 +120,7 @@ elseif str_value > 1000000000000000000 then
     tp1Qn()
 elseif str_value > 4000000000000000 then
     tp4qd()
-elseif str_value > 2000000000000 then
+elseif str_value > 200000000000 then
     tp200T()
 elseif str_value > 5000000000000 then
     tp5T()
@@ -150,7 +152,8 @@ Credits:Seperator()
 Credits:Label("@Queen0dinY (synthetics#3130) - Coding!")
 Credits:Seperator()
 Credits:Label("Thank you for testing:")
-Credits:Label("@")
+Credits:Label("@GoodTimesWithNoah_YT")
+Credits:Label("@Seakui")
 Credits:Seperator()
 
 Credits:Button("Join the Discord Server!", function()
